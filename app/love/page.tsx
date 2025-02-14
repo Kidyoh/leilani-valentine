@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import LoveLetter from "@/components/ui/LoveLetter";
 
 // Enhanced Love Songs with More Details
 const LOVE_SONGS = [
@@ -374,6 +375,7 @@ export default function ValentinePage() {
           transition={{ duration: 0.5 }}
           className="bg-white/80 backdrop-blur-md rounded-3xl shadow-2xl p-8 md:p-12 border border-pink-100"
         >
+        <LoveLetter />
           {/* Love Playlist Section */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-pink-600 mb-6 flex items-center">
